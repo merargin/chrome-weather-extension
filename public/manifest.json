@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Weather App",
+  "description": "This extension shows the current weather of the user's location",
+  "version": "1.0",
+  "background": {
+	"scripts": ["bundle.js"]
+  },
+  "browser_action": {
+    "default_icon": "assets/icons/icon-48.png",
+    "default_popup": "index.html",
+    "default_title": "Current weather",
+    "height": 300,
+    "width": 400
+  },
+  "permissions": [
+    "geolocation", "background", "http://api.openweathermap.org/"
+  ],
+  "web_accessible_resources": ["bundle.js"]
+}
+

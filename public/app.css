@@ -1,0 +1,16 @@
+.weather {font:16px arial; padding: 20px 40px; border: 1px solid #ddd;}
+.weather__city {padding: 10px 0;}
+.weather__block {padding: 40px 0; display: table;}
+.weather__block span {display: block;}
+.weather__temperature, .weather__cloud {display: table-cell; vertical-align: top; padding: 0 100px 0 0;}
+.weather__temperature-value {color: #de4b3b; display: block; height: 100px; padding: 25px 0;}
+.weather__temperature-value strong {font-size: 80px; vertical-align: top;}
+.weather__temperature-value sup {font-size: 20px;}
+.weather__temperature-value b {font-size: 70px; vertical-align: top; position: relative; top:5px;}
+.weather__temperature-date {padding-top: 40px; color: #de4b3b; font-size: 24px;}
+.weather__cloud-image {height: 100px; padding: 25px 0; text-align: center;}
+.weather__cloud-description {padding-top: 40px; font-size: 24px;text-transform: capitalize}
+.weather__conditions {display: table-cell; vertical-align: middle;}
+.weather__condtions div { display:table-cell; vertical-align:middle; }
+.weather__conditions span {font-size: 18px; color: #aaa; line-height: 30px;}
+.weather__conditions em {font-style: normal; color: #555;}
